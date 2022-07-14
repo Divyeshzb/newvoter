@@ -1,4 +1,5 @@
 # Voting app
+sample
 
 ## About project
 
