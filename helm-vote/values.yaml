@@ -12,7 +12,7 @@ registry: &defaultRegistry local-registry:5002
 
 services:
   voter: 
-    imageName: voter # without registry-host and tag
+    imageName: newvoter # without registry-host and tag
     imageTag: *defaultTag
     serviceName: voter
     servicePort: *defaultServicePort
