@@ -3,7 +3,7 @@
 # Declare variables to be passed into your templates.
 
 
-httpServicePort: &defaultServicePort 80
+httpServicePort: &defaultServicePort 8080
 tag: &defaultTag latest
 namespace: default
 clusterIP: 10.10.0.10
