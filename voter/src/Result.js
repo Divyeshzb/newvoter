@@ -144,7 +144,7 @@ class Result extends Component {
 		if (this.state.results === null || this.state.results.length < 1) {
 			return (
 				<div className="Home">
-					<div className="heading">No votes has been given</div>
+					<div className="heading">No votes has been recorded</div>
 				</div>
 			);
 		}
