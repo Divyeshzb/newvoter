@@ -16,7 +16,7 @@ spec:
           service:
             name: {{ .Values.services.voter.serviceName }}
             port:
-              number: 80
+              number: 8080
   - host: "{{ .Values.namespace }}.{{ .Values.services.ballot.serviceName }}.{{ .Values.clusterIP }}.{{ .Values.clusterDomain }}"
     http:
       paths:
